@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.cards {
+width: 500px;
+box-shadow: 3px 3px 5px 6px #ccc;
+margin: 20px auto;
+padding: 10px 0;
+}
+.cardHeader {
+background-size: 500px 200px;
+position: relative;
+}
+.cards:hover {
+transform: scale(1.05)
+}
+.navOptions:after {
+  content: '\2807';
+  font-size: 25px;
+}
+.navOptions {
+position: relative;
+margin: 10px;
+  float: right; 
+}
+.menuOptions {
+position: absolute;
+  top: 10px;
+  width: 100px;
+  left: -120px;
+}
+.menuOptions li {
+padding: 5px;
+  text-align: center;
+  border: 1px solid #e1e6e6;
+  background-color: #e1e6e6;
+  list-style-type: none;
+}
+.likeIcon i{
+margin: 10px;
+  font-size: 20px;
+  color: gray;
+  float: left;
+}
+.likeIcon .likedArticleIndicator {
+color: red;
+}
+.hide{
+  display: none;
+}
+.titleContainer {
+  float: 'left';
+  width: '90%'; 
+  bottom: 0; 
+  color: 'black';
+}
+.title {
+  text-align: center;
+  margin: 10px;
+}
+.cardSource {
+  float: left;
+  color: gray;
+  width: 100%;
+}
+.cardSource p {
+  margin: 10px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+.cardSource time {
+  float: right;
+  vertical-align: middle;
+  margin: 5px;
+  font-size: 12px;
+}
+.cardImage img {
+    width: 500px;
+    height: 200px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
